@@ -1,4 +1,4 @@
-name: opentrck - 1
+name: opentrck - 3
 
 on:
   workflow_dispatch:
@@ -7,11 +7,11 @@ permissions:
   contents: read
 
 concurrency:
-  group: tailscale-opentrck-1
+  group: tailscale-opentrck-3
   cancel-in-progress: false
 
 env:
-  TS_HOSTNAME: opentrck-1
+  TS_HOSTNAME: opentrck-3
 
 jobs:
   debug:
